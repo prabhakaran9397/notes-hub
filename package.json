@@ -1,18 +1,24 @@
 {
-  "name": "notes",
+  "name": "Notes Hub",
   "version": "1.0.0",
-  "description": "",
+  "description": "Notes Hub, where notes are found",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "prabhakaran9397",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.1",
+    "bookshelf": "^0.9.4",
+    "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "mysql": "^2.10.2"
+    "express-session": "^1.13.0",
+    "mysql": "^2.10.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.9.2"
